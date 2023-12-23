@@ -1,2 +1,2 @@
 # Personal-Website
-My personal website (in development), built from scratch
+My personal website (in development, HTML only so far), built from scratch
