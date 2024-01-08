@@ -1,0 +1,36 @@
+.menu{
+    margin: 0px;
+    background-color: #0492C2;
+    height: 80px;
+}
+
+.menu ul li{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    color: black;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    height: 400px;
+}
+
+.image{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+p, ul li{
+    font-family: 'Poppins', sans-serif;
+}
