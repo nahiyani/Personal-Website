@@ -1,19 +1,24 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
 .menu{
     margin: 0px;
     background-color: #0492C2;
     height: 80px;
+    width: 100%;
+    text-decoration: none;
 }
 
 .menu ul li{
     color: white;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    display: inline-block;
 }
 
 h1{
     color: #0492C2;
     font-size: 100px;
-    font-family: 'Poppins', sans-serif;
     border: 3px solid #0492C2;
     border-radius: 20px;
     padding: 15px 0px;
@@ -21,12 +26,22 @@ h1{
     display: inline-block;
 }
 
+h2{
+    font-size: 50px;
+    color: #0492C2;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1:hover{
+    color: black;
+}
+
 .intro{
     background-color: white;
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
     height: 400px;
 }
 
@@ -36,6 +51,49 @@ h1{
     background-color: black;
 }
 
-p, ul li{
-    font-family: 'Poppins', sans-serif;
+.work-experience{
+    text-align: center;
+}
+
+table{
+    display: inline-block;
+}
+
+table, th, td{
+    border: 3px solid #0492C2;
+    border-collapse: collapse;
+    text-align: center;
+    color:white;
+}
+
+th {
+    height:25px;
+}
+
+tr:hover{
+    background-color: #0492C2;
+
+    & tr, td{
+        border-top: 4px solid #0492C2;
+        border-bottom: 4px solid #0492C2;
+        border-left: 4px solid white;
+        border-right: 4px solid white;
+        border-collapse: collapse;
+        color: white;
+    }
+}
+
+td{
+    color:#0492C2;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.head{
+    background-color: #0492C2;
+    color: white;
+}
+
+.description{
+    text-align: left;
 }
